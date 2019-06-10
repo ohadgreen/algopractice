@@ -15,5 +15,4 @@ class CumulativeArrayTest {
         assertEquals(4, cumArray[2]);
         assertEquals(45, cumArray[7]);
     }
-
 }
