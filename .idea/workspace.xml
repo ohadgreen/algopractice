@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/FindLongestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/questions/arrays/FindLongestStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/CyclicRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/FindSmallestMissingInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/questions/arrays/CyclicRotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/questions/arrays/FindSmallestMissingIntTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/misc.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/misc.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,64 +62,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindLongestStringTest.twoStretchTest">
-    <configuration name="FindLongestStringTest.anotherArrTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindSmallestMissingIntTest.allNeg">
+    <configuration name="FindSmallestMissingIntTest.allNeg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
       <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindLongestStringTest" />
-      <option name="METHOD_NAME" value="anotherArrTest" />
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindSmallestMissingIntTest" />
+      <option name="METHOD_NAME" value="allNeg" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindLongestStringTest.regularArrTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindSmallestMissingIntTest.negativeArr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
       <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindLongestStringTest" />
-      <option name="METHOD_NAME" value="regularArrTest" />
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindSmallestMissingIntTest" />
+      <option name="METHOD_NAME" value="negativeArr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindLongestStringTest.twoStretchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindSmallestMissingIntTest.noGaps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
       <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindLongestStringTest" />
-      <option name="METHOD_NAME" value="twoStretchTest" />
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindSmallestMissingIntTest" />
+      <option name="METHOD_NAME" value="noGaps" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMapTest.getValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindSmallestMissingIntTest.notSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.hashmap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="questions.hashmap" />
-      <option name="MAIN_CLASS_NAME" value="questions.hashmap.MyMapTest" />
-      <option name="METHOD_NAME" value="getValue" />
+      <option name="PACKAGE_NAME" value="questions.arrays" />
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindSmallestMissingIntTest" />
+      <option name="METHOD_NAME" value="notSorted" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMapTest.setAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindSmallestMissingIntTest.simpleArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="questions.hashmap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="questions.hashmap" />
-      <option name="MAIN_CLASS_NAME" value="questions.hashmap.MyMapTest" />
-      <option name="METHOD_NAME" value="setAll" />
+      <option name="PACKAGE_NAME" value="questions.arrays" />
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindSmallestMissingIntTest" />
+      <option name="METHOD_NAME" value="simpleArrayTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindLongestStringTest.twoStretchTest" />
-        <item itemvalue="JUnit.FindLongestStringTest.anotherArrTest" />
-        <item itemvalue="JUnit.FindLongestStringTest.regularArrTest" />
-        <item itemvalue="JUnit.MyMapTest.setAll" />
-        <item itemvalue="JUnit.MyMapTest.getValue" />
+        <item itemvalue="JUnit.FindSmallestMissingIntTest.allNeg" />
+        <item itemvalue="JUnit.FindSmallestMissingIntTest.noGaps" />
+        <item itemvalue="JUnit.FindSmallestMissingIntTest.negativeArr" />
+        <item itemvalue="JUnit.FindSmallestMissingIntTest.simpleArrayTest" />
+        <item itemvalue="JUnit.FindSmallestMissingIntTest.notSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -171,46 +159,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="hashing practice" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="197" key="GridCell.Tab.0.bottom" timestamp="1589559836413">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1398" height="364" key="GridCell.Tab.0.bottom" timestamp="1589716181827">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="197" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589559836413" />
-    <state width="1878" height="197" key="GridCell.Tab.0.center" timestamp="1589559836411">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="364" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715827499" />
+    <state width="1398" height="364" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716181827" />
+    <state width="1398" height="364" key="GridCell.Tab.0.center" timestamp="1589716181826">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="197" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589559836411" />
-    <state width="1878" height="197" key="GridCell.Tab.0.left" timestamp="1589559836411">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="364" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715827498" />
+    <state width="1398" height="364" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716181826" />
+    <state width="1398" height="364" key="GridCell.Tab.0.left" timestamp="1589716181825">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="197" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589559836411" />
-    <state width="1878" height="197" key="GridCell.Tab.0.right" timestamp="1589559836412">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="364" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715827497" />
+    <state width="1398" height="364" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716181825" />
+    <state width="1398" height="364" key="GridCell.Tab.0.right" timestamp="1589716181827">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="197" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589559836412" />
-    <state width="1878" height="197" key="GridCell.Tab.1.bottom" timestamp="1589559836796">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="364" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715827499" />
+    <state width="1398" height="364" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716181827" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1589716154448">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="197" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589559836796" />
-    <state width="1878" height="197" key="GridCell.Tab.1.center" timestamp="1589559836795">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715369754" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716154448" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1589716154447">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="197" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589559836795" />
-    <state width="1878" height="197" key="GridCell.Tab.1.left" timestamp="1589559836794">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715369753" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716154447" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1589716154446">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="197" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589559836794" />
-    <state width="1878" height="197" key="GridCell.Tab.1.right" timestamp="1589559836796">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715369752" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716154446" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1589716154447">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1878" height="197" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589559836796" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715369753" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716154447" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1589560286796">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589560286796" />
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589387224614">
+    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589715036298">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589387224614" />
+    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715036298" />
+    <state x="-1295" y="255" key="run.anything.popup" timestamp="1589701528032">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="255" key="run.anything.popup/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589701528032" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -252,9 +252,14 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/questions/arrays/FindLongestString.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/main/java/questions/arrays/CyclicRotation.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/arrays/FindSmallestMissingInt.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
