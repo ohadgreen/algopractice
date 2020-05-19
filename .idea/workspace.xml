@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/CyclicRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/FindSmallestMissingInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/questions/arrays/CyclicRotationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/questions/arrays/FindSmallestMissingIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/LightBulbs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/ReverseNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/Switching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/questions/arrays/LightBulbsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/questions/arrays/ReverseNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/questions/arrays/SwitchingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,52 +64,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindSmallestMissingIntTest.allNeg">
-    <configuration name="FindSmallestMissingIntTest.allNeg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ReverseNumberTest.n1">
+    <configuration name="LightBulbsTest.simpleTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
       <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindSmallestMissingIntTest" />
-      <option name="METHOD_NAME" value="allNeg" />
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.LightBulbsTest" />
+      <option name="METHOD_NAME" value="simpleTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindSmallestMissingIntTest.negativeArr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LightBulbsTest.simpleTest123" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
       <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindSmallestMissingIntTest" />
-      <option name="METHOD_NAME" value="negativeArr" />
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.LightBulbsTest" />
+      <option name="METHOD_NAME" value="simpleTest123" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindSmallestMissingIntTest.noGaps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LightBulbsTest.simpleTest321" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
       <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindSmallestMissingIntTest" />
-      <option name="METHOD_NAME" value="noGaps" />
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.LightBulbsTest" />
+      <option name="METHOD_NAME" value="simpleTest321" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindSmallestMissingIntTest.notSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseNumberTest.n1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
       <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindSmallestMissingIntTest" />
-      <option name="METHOD_NAME" value="notSorted" />
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.ReverseNumberTest" />
+      <option name="METHOD_NAME" value="n1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindSmallestMissingIntTest.simpleArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseNumberTest.n123" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
       <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindSmallestMissingIntTest" />
-      <option name="METHOD_NAME" value="simpleArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.ReverseNumberTest" />
+      <option name="METHOD_NAME" value="n123" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FindSmallestMissingIntTest.allNeg" />
-        <item itemvalue="JUnit.FindSmallestMissingIntTest.noGaps" />
-        <item itemvalue="JUnit.FindSmallestMissingIntTest.negativeArr" />
-        <item itemvalue="JUnit.FindSmallestMissingIntTest.simpleArrayTest" />
-        <item itemvalue="JUnit.FindSmallestMissingIntTest.notSorted" />
+        <item itemvalue="JUnit.ReverseNumberTest.n1" />
+        <item itemvalue="JUnit.ReverseNumberTest.n123" />
+        <item itemvalue="JUnit.LightBulbsTest.simpleTest321" />
+        <item itemvalue="JUnit.LightBulbsTest.simpleTest123" />
+        <item itemvalue="JUnit.LightBulbsTest.simpleTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -159,54 +161,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="hashing practice" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="364" key="GridCell.Tab.0.bottom" timestamp="1589716181827">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="374" key="GridCell.Tab.0.bottom" timestamp="1589879728597">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="364" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715827499" />
+    <state width="1878" height="374" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589879728597" />
     <state width="1398" height="364" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716181827" />
-    <state width="1398" height="364" key="GridCell.Tab.0.center" timestamp="1589716181826">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="374" key="GridCell.Tab.0.center" timestamp="1589879728594">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="364" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715827498" />
+    <state width="1878" height="374" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589879728594" />
     <state width="1398" height="364" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716181826" />
-    <state width="1398" height="364" key="GridCell.Tab.0.left" timestamp="1589716181825">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="374" key="GridCell.Tab.0.left" timestamp="1589879728593">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="364" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715827497" />
+    <state width="1878" height="374" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589879728593" />
     <state width="1398" height="364" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716181825" />
-    <state width="1398" height="364" key="GridCell.Tab.0.right" timestamp="1589716181827">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="374" key="GridCell.Tab.0.right" timestamp="1589879728595">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="364" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715827499" />
+    <state width="1878" height="374" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589879728595" />
     <state width="1398" height="364" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716181827" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1589716154448">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="374" key="GridCell.Tab.1.bottom" timestamp="1589879728945">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715369754" />
+    <state width="1878" height="374" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589879728945" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716154448" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1589716154447">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="374" key="GridCell.Tab.1.center" timestamp="1589879728944">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715369753" />
+    <state width="1878" height="374" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589879728944" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716154447" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1589716154446">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="374" key="GridCell.Tab.1.left" timestamp="1589879728944">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715369752" />
+    <state width="1878" height="374" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589879728944" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716154446" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1589716154447">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="374" key="GridCell.Tab.1.right" timestamp="1589879728945">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715369753" />
+    <state width="1878" height="374" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589879728945" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1589716154447" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1589560286796">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589560286796" />
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589715036298">
+    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589878794188">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589715036298" />
+    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1589878794188" />
     <state x="-1295" y="255" key="run.anything.popup" timestamp="1589701528032">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
@@ -260,6 +262,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/questions/arrays/FindSmallestMissingInt.java</url>
           <line>11</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/arrays/ReverseNumber.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/arrays/ReverseNumber.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/arrays/LightBulbs.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
