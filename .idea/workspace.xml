@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/DecodeWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/FibonacciSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/strings/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/questions/arrays/DecodeWaysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/questions/arrays/FibonacciSequenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exersize/CyberReasonExcersize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exersize/StringInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
