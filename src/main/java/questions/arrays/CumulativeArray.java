@@ -17,6 +17,7 @@ public class CumulativeArray {
             prevSum += numbersArray[i];
         }
 
+
         return cumArray;
     }
 }

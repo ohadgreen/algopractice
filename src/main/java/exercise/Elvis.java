@@ -1,4 +1,4 @@
-package exersize;
+package exercise;
 
 public  class Elvis {
 
