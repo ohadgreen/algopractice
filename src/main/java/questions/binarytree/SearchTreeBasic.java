@@ -33,9 +33,6 @@ public class SearchTreeBasic {
         if (key < treeNode.getKey()){
             return searchNode(treeNode.getLeftNode(), key);
         }
-        if (key > treeNode.getKey()){
-            return searchNode(treeNode.getRightNode(), key);
-        }
         return searchNode(treeNode.getRightNode(), key);
     }
 
