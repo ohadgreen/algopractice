@@ -1,4 +1,4 @@
-package questions.Hashing;
+package questions.hashing;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -41,12 +41,11 @@ class Person {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Person person = (Person) o;
-        return id == person.id &&
-                Objects.equals(name, person.name);
+        return id == person.id && Objects.equals(name, person.name);
     }
 
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(id, name);
-//    }
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name);
+    }
 }

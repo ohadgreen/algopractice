@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/FindTwoNumberSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/expressiontree/BuildExpressionTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/model/ExpressionTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/questions/arrays/FindTwoNumberSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/LeafPathDistinctNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/questions/hashing/HashCodePracticeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/questions/binarytree/SearchTreeBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/SearchTreeBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/questions/Hashing/HashCodePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/hashing/HashCodePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/questions/Hashing/HashCodePractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/questions/Hashing/HashCodePractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/questions/Hashing/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/questions/Hashing/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/questions/arrays/FindTwoNumberSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/questions/arrays/FindTwoNumberSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/questions/arrays/FindTwoNumberSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/questions/arrays/FindTwoNumberSumTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,15 +60,18 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="questions.hashing" />
       <recent name="questions.arrays" />
       <recent name="questions.lists" />
       <recent name="questions.hashmap" />
       <recent name="questions.binarytree" />
-      <recent name="utils" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="questions" />
@@ -78,13 +80,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindTwoNumberSumTest.findIfSumExistsFalse">
-    <configuration name="FindTwoNumberSumTest.findIfSumExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.LeafPathDistinctNodes">
+    <configuration name="HashCodePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.hashing.HashCodePractice" />
       <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindTwoNumberSumTest" />
-      <option name="METHOD_NAME" value="findIfSumExists" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeafPathDistinctNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.binarytree.LeafPathDistinctNodes" />
+      <module name="misc" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,30 +105,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListUnidirectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashCodePracticeTest.hashCodeSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.lists" />
-      <option name="MAIN_CLASS_NAME" value="questions.lists.LinkedListUnidirectionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseListOrderTest.reverseOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.lists" />
-      <option name="MAIN_CLASS_NAME" value="questions.lists.ReverseListOrderTest" />
-      <option name="METHOD_NAME" value="reverseOrder" />
+      <option name="PACKAGE_NAME" value="questions.hashing" />
+      <option name="MAIN_CLASS_NAME" value="questions.hashing.HashCodePracticeTest" />
+      <option name="METHOD_NAME" value="hashCodeSimpleTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchTreeBasicTest.printTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashCodePracticeTest.testString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.binarytree" />
-      <option name="MAIN_CLASS_NAME" value="questions.binarytree.SearchTreeBasicTest" />
-      <option name="METHOD_NAME" value="printTree" />
+      <option name="PACKAGE_NAME" value="questions.hashing" />
+      <option name="MAIN_CLASS_NAME" value="questions.hashing.HashCodePracticeTest" />
+      <option name="METHOD_NAME" value="testString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeafPathDistinctNodes" />
+        <item itemvalue="JUnit.HashCodePracticeTest.hashCodeSimpleTest" />
+        <item itemvalue="JUnit.HashCodePracticeTest.testString" />
+        <item itemvalue="Application.HashCodePractice" />
         <item itemvalue="JUnit.FindTwoNumberSumTest.findIfSumExistsFalse" />
-        <item itemvalue="JUnit.FindTwoNumberSumTest.findIfSumExists" />
-        <item itemvalue="JUnit.SearchTreeBasicTest.printTree" />
-        <item itemvalue="JUnit.LinkedListUnidirectionTest" />
-        <item itemvalue="JUnit.ReverseListOrderTest.reverseOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -175,74 +172,70 @@
     <option name="LAST_COMMIT_MESSAGE" value="hashing practice" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1147" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1593943756967">
+    <state width="1398" height="160" key="GridCell.Tab.0.bottom" timestamp="1603214748669">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179181095" />
+    <state width="1398" height="160" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603214748669" />
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603149000840" />
+    <state width="1878" height="338" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533597" />
+    <state width="1398" height="160" key="GridCell.Tab.0.center" timestamp="1603214748668">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179181093" />
+    <state width="1398" height="160" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603214748668" />
+    <state width="1878" height="289" key="GridCell.Tab.0.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603149000837" />
+    <state width="1878" height="338" key="GridCell.Tab.0.center/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533596" />
+    <state width="1398" height="160" key="GridCell.Tab.0.left" timestamp="1603214748667">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179181092" />
+    <state width="1398" height="160" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603214748667" />
+    <state width="1878" height="289" key="GridCell.Tab.0.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603149000836" />
+    <state width="1878" height="338" key="GridCell.Tab.0.left/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533596" />
+    <state width="1398" height="160" key="GridCell.Tab.0.right" timestamp="1603214748668">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="289" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179181094" />
+    <state width="1398" height="160" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603214748668" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603149000838" />
+    <state width="1878" height="338" key="GridCell.Tab.0.right/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533597" />
+    <state width="1398" height="243" key="GridCell.Tab.1.bottom" timestamp="1603214392942">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179109827" />
+    <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
+    <state width="1878" height="257" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533585" />
+    <state width="1398" height="243" key="GridCell.Tab.1.center" timestamp="1603214392942">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179109826" />
+    <state width="1398" height="243" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
+    <state width="1878" height="257" key="GridCell.Tab.1.center/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533584" />
+    <state width="1398" height="243" key="GridCell.Tab.1.left" timestamp="1603214392941">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179109826" />
+    <state width="1398" height="243" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1603214392941" />
+    <state width="1878" height="257" key="GridCell.Tab.1.left/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533583" />
+    <state width="1398" height="243" key="GridCell.Tab.1.right" timestamp="1603214392942">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179109827" />
+    <state width="1398" height="243" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
+    <state width="1878" height="257" key="GridCell.Tab.1.right/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533584" />
+    <state x="-1472" y="121" key="SettingsEditor" timestamp="1603179065698">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1147" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1593943756967" />
-    <state width="1878" height="312" key="GridCell.Tab.0.bottom" timestamp="1599643256225">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="312" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599643256225" />
-    <state width="1398" height="343" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593346216857" />
-    <state width="1878" height="281" key="GridCell.Tab.0.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1594107045504" />
-    <state width="1398" height="339" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593347796147" />
-    <state width="1878" height="312" key="GridCell.Tab.0.center" timestamp="1599643256224">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="312" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599643256224" />
-    <state width="1398" height="343" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593346216855" />
-    <state width="1878" height="281" key="GridCell.Tab.0.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1594107045501" />
-    <state width="1398" height="339" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1593347796145" />
-    <state width="1878" height="312" key="GridCell.Tab.0.left" timestamp="1599643256223">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="312" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599643256223" />
-    <state width="1398" height="343" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593346216854" />
-    <state width="1878" height="281" key="GridCell.Tab.0.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1594107045500" />
-    <state width="1398" height="339" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1593347796145" />
-    <state width="1878" height="312" key="GridCell.Tab.0.right" timestamp="1599643256225">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="312" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599643256225" />
-    <state width="1398" height="343" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593346216856" />
-    <state width="1878" height="281" key="GridCell.Tab.0.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1594107045502" />
-    <state width="1398" height="339" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1593347796146" />
-    <state width="1878" height="257" key="GridCell.Tab.1.bottom" timestamp="1599642745807">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="257" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599642745807" />
-    <state width="1398" height="339" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593346196429" />
-    <state width="1398" height="339" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1593347796148" />
-    <state width="1878" height="257" key="GridCell.Tab.1.center" timestamp="1599642745806">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="257" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599642745806" />
-    <state width="1398" height="339" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1593346196428" />
-    <state width="1398" height="339" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1593347796148" />
-    <state width="1878" height="257" key="GridCell.Tab.1.left" timestamp="1599642745806">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="257" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599642745806" />
-    <state width="1398" height="339" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1593346196427" />
-    <state width="1398" height="339" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1593347796147" />
-    <state width="1878" height="257" key="GridCell.Tab.1.right" timestamp="1599642745807">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="257" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599642745807" />
-    <state width="1398" height="339" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1593346196428" />
-    <state width="1398" height="339" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1593347796148" />
+    <state x="-1472" y="121" key="SettingsEditor/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179065698" />
     <state x="-1141" y="236" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599638525234">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1141" y="236" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599638525234" />
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599637490686">
+    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603098118645">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599637490686" />
-    <state x="-1207" y="0" width="778" height="774" key="dock-window-1" timestamp="1593944712288">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1207" y="0" width="778" height="774" key="dock-window-1/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1593944712288" />
+    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603098118645" />
     <state x="-1311" y="274" width="700" height="530" key="recent.locations.popup" timestamp="1599638278045">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
@@ -331,6 +324,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/questions/arrays/FindTwoNumberSum.java</url>
           <line>7</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/questions/hashing/HashCodePracticeTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/binarytree/LeafPathDistinctNodes.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
