@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/LeafPathDistinctNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/questions/hashing/HashCodePracticeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/PicturePaint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/PriceCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/PicturePaintTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/questions/Hashing/HashCodePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/hashing/HashCodePractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/questions/Hashing/HashCodePractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/questions/Hashing/HashCodePractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/questions/Hashing/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/questions/Hashing/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/questions/arrays/FindTwoNumberSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/questions/arrays/FindTwoNumberSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/questions/arrays/FindTwoNumberSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/questions/arrays/FindTwoNumberSumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/CyberReasonExcersize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/Elvis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exercise/CyberReasonExcersize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exercise/Elvis.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -67,11 +67,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="exercise" />
       <recent name="questions.hashing" />
       <recent name="questions.arrays" />
       <recent name="questions.lists" />
       <recent name="questions.hashmap" />
-      <recent name="questions.binarytree" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="questions" />
@@ -80,46 +80,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeafPathDistinctNodes">
-    <configuration name="HashCodePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.hashing.HashCodePractice" />
+  <component name="RunManager" selected="JUnit.PicturePaintTest.groupCountUniteGroupTest">
+    <configuration name="PicturePaintTest.createArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeafPathDistinctNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.binarytree.LeafPathDistinctNodes" />
-      <module name="misc" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindTwoNumberSumTest.findIfSumExistsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.FindTwoNumberSumTest" />
-      <option name="METHOD_NAME" value="findIfSumExistsFalse" />
+      <option name="PACKAGE_NAME" value="exercise" />
+      <option name="MAIN_CLASS_NAME" value="exercise.PicturePaintTest" />
+      <option name="METHOD_NAME" value="createArrayTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashCodePracticeTest.hashCodeSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PicturePaintTest.emptyMapSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.hashing" />
-      <option name="MAIN_CLASS_NAME" value="questions.hashing.HashCodePracticeTest" />
-      <option name="METHOD_NAME" value="hashCodeSimpleTest" />
+      <option name="PACKAGE_NAME" value="exercise" />
+      <option name="MAIN_CLASS_NAME" value="exercise.PicturePaintTest" />
+      <option name="METHOD_NAME" value="emptyMapSize" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashCodePracticeTest.testString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PicturePaintTest.groupCountTest3by3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.hashing" />
-      <option name="MAIN_CLASS_NAME" value="questions.hashing.HashCodePracticeTest" />
-      <option name="METHOD_NAME" value="testString" />
+      <option name="PACKAGE_NAME" value="exercise" />
+      <option name="MAIN_CLASS_NAME" value="exercise.PicturePaintTest" />
+      <option name="METHOD_NAME" value="groupCountTest3by3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PicturePaintTest.groupCountUniteGroupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="misc" />
+      <option name="PACKAGE_NAME" value="exercise" />
+      <option name="MAIN_CLASS_NAME" value="exercise.PicturePaintTest" />
+      <option name="METHOD_NAME" value="groupCountUniteGroupTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PicturePaintTest.strokesCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="misc" />
+      <option name="PACKAGE_NAME" value="exercise" />
+      <option name="MAIN_CLASS_NAME" value="exercise.PicturePaintTest" />
+      <option name="METHOD_NAME" value="strokesCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeafPathDistinctNodes" />
-        <item itemvalue="JUnit.HashCodePracticeTest.hashCodeSimpleTest" />
-        <item itemvalue="JUnit.HashCodePracticeTest.testString" />
-        <item itemvalue="Application.HashCodePractice" />
-        <item itemvalue="JUnit.FindTwoNumberSumTest.findIfSumExistsFalse" />
+        <item itemvalue="JUnit.PicturePaintTest.groupCountUniteGroupTest" />
+        <item itemvalue="JUnit.PicturePaintTest.groupCountTest3by3" />
+        <item itemvalue="JUnit.PicturePaintTest.emptyMapSize" />
+        <item itemvalue="JUnit.PicturePaintTest.createArrayTest" />
+        <item itemvalue="JUnit.PicturePaintTest.strokesCount" />
       </list>
     </recent_temporary>
   </component>
@@ -172,57 +178,69 @@
     <option name="LAST_COMMIT_MESSAGE" value="hashing practice" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="160" key="GridCell.Tab.0.bottom" timestamp="1603214748669">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="-1272" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603274724654">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179181095" />
+    <state x="-1272" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603274724654" />
+    <state x="-1222" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603350112355">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1222" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603350112355" />
+    <state width="1878" height="568" key="GridCell.Tab.0.bottom" timestamp="1603365175944">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="568" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603365175944" />
     <state width="1398" height="160" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603214748669" />
-    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603149000840" />
+    <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209050" />
     <state width="1878" height="338" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533597" />
-    <state width="1398" height="160" key="GridCell.Tab.0.center" timestamp="1603214748668">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="568" key="GridCell.Tab.0.center" timestamp="1603365175943">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="289" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179181093" />
+    <state width="1878" height="568" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603365175943" />
     <state width="1398" height="160" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603214748668" />
-    <state width="1878" height="289" key="GridCell.Tab.0.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603149000837" />
+    <state width="1398" height="243" key="GridCell.Tab.0.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209045" />
     <state width="1878" height="338" key="GridCell.Tab.0.center/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533596" />
-    <state width="1398" height="160" key="GridCell.Tab.0.left" timestamp="1603214748667">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="568" key="GridCell.Tab.0.left" timestamp="1603365175943">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="289" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179181092" />
+    <state width="1878" height="568" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603365175943" />
     <state width="1398" height="160" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603214748667" />
-    <state width="1878" height="289" key="GridCell.Tab.0.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603149000836" />
+    <state width="1398" height="243" key="GridCell.Tab.0.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209044" />
     <state width="1878" height="338" key="GridCell.Tab.0.left/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533596" />
-    <state width="1398" height="160" key="GridCell.Tab.0.right" timestamp="1603214748668">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="568" key="GridCell.Tab.0.right" timestamp="1603365175944">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="289" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179181094" />
+    <state width="1878" height="568" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603365175944" />
     <state width="1398" height="160" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603214748668" />
-    <state width="1878" height="289" key="GridCell.Tab.0.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603149000838" />
+    <state width="1398" height="243" key="GridCell.Tab.0.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209049" />
     <state width="1878" height="338" key="GridCell.Tab.0.right/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533597" />
-    <state width="1398" height="243" key="GridCell.Tab.1.bottom" timestamp="1603214392942">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="568" key="GridCell.Tab.1.bottom" timestamp="1603365175946">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179109827" />
+    <state width="1878" height="568" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603365175946" />
     <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
+    <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209054" />
     <state width="1878" height="257" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533585" />
-    <state width="1398" height="243" key="GridCell.Tab.1.center" timestamp="1603214392942">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="568" key="GridCell.Tab.1.center" timestamp="1603365175945">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179109826" />
+    <state width="1878" height="568" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603365175945" />
     <state width="1398" height="243" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
+    <state width="1398" height="243" key="GridCell.Tab.1.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209053" />
     <state width="1878" height="257" key="GridCell.Tab.1.center/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533584" />
-    <state width="1398" height="243" key="GridCell.Tab.1.left" timestamp="1603214392941">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="568" key="GridCell.Tab.1.left" timestamp="1603365175945">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179109826" />
+    <state width="1878" height="568" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603365175945" />
     <state width="1398" height="243" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1603214392941" />
+    <state width="1398" height="243" key="GridCell.Tab.1.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209051" />
     <state width="1878" height="257" key="GridCell.Tab.1.left/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533583" />
-    <state width="1398" height="243" key="GridCell.Tab.1.right" timestamp="1603214392942">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1878" height="568" key="GridCell.Tab.1.right" timestamp="1603365175946">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179109827" />
+    <state width="1878" height="568" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603365175946" />
     <state width="1398" height="243" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
+    <state width="1398" height="243" key="GridCell.Tab.1.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209053" />
     <state width="1878" height="257" key="GridCell.Tab.1.right/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533584" />
     <state x="-1472" y="121" key="SettingsEditor" timestamp="1603179065698">
       <screen x="-1920" y="0" width="1920" height="1080" />
@@ -232,10 +250,14 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1141" y="236" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599638525234" />
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603098118645">
+    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603271359663">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603098118645" />
+    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603271359663" />
+    <state x="-1222" y="285" key="extract.method.dialog" timestamp="1603274239618">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1222" y="285" key="extract.method.dialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603274239618" />
     <state x="-1311" y="274" width="700" height="530" key="recent.locations.popup" timestamp="1599638278045">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
@@ -334,6 +356,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/questions/binarytree/LeafPathDistinctNodes.java</url>
           <line>32</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/exercise/PicturePaintTest.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/exercise/PicturePaintTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/exercise/PicturePaint.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
