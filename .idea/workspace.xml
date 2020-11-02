@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/amazon/MyBst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/amazon/NextElementFromSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/questions/arrays/NextGreaterElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/amazon/MyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/amazon/NextElementPQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/amazon/SortListOfSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/questions/binarytree/amazon/NextElementPQTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/questions/arrays/NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/NextGreaterElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/questions/arrays/FisherYatesShuffle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/questions/arrays/FisherYatesShuffle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/questions/arrays/FisherYatesShuffleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/questions/arrays/FisherYatesShuffleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/questions/arrays/NextGreaterElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/questions/arrays/NextGreaterElement.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +65,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="questions.binarytree.amazon" />
       <recent name="questions.arrays" />
       <recent name="questions.hashmap" />
       <recent name="exercise" />
       <recent name="questions.hashing" />
-      <recent name="questions.lists" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="questions" />
@@ -79,32 +78,32 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NextGreaterElementTest.ngeDescendingTest">
-    <configuration name="FisherYatesShuffleTest.shuffleArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NextElementPQTest.getNextSmokeTest">
+    <configuration name="NextElementPQTest.getNextSmokeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.FisherYatesShuffleTest" />
-      <option name="METHOD_NAME" value="shuffleArrayTest" />
+      <option name="PACKAGE_NAME" value="questions.binarytree.amazon" />
+      <option name="MAIN_CLASS_NAME" value="questions.binarytree.amazon.NextElementPQTest" />
+      <option name="METHOD_NAME" value="getNextSmokeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertDeleteGetRandomDSTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NextElementPQTest.initTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.hashmap" />
-      <option name="MAIN_CLASS_NAME" value="questions.hashmap.InsertDeleteGetRandomDSTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="PACKAGE_NAME" value="questions.binarytree.amazon" />
+      <option name="MAIN_CLASS_NAME" value="questions.binarytree.amazon.NextElementPQTest" />
+      <option name="METHOD_NAME" value="initTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElementTest.nextGreaterElementSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NextElementPQTest.priorityQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.NextGreaterElementTest" />
-      <option name="METHOD_NAME" value="nextGreaterElementSimpleTest" />
+      <option name="PACKAGE_NAME" value="questions.binarytree.amazon" />
+      <option name="MAIN_CLASS_NAME" value="questions.binarytree.amazon.NextElementPQTest" />
+      <option name="METHOD_NAME" value="priorityQueueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NextElementPQTest.getNextSmokeTest" />
+        <item itemvalue="JUnit.NextElementPQTest.initTest" />
+        <item itemvalue="JUnit.NextElementPQTest.priorityQueueTest" />
         <item itemvalue="JUnit.NextGreaterElementTest.ngeDescendingTest" />
         <item itemvalue="JUnit.NextGreaterElementTest.ngeAscendingTest" />
-        <item itemvalue="JUnit.NextGreaterElementTest.nextGreaterElementSimpleTest" />
-        <item itemvalue="JUnit.FisherYatesShuffleTest.shuffleArrayTest" />
-        <item itemvalue="JUnit.InsertDeleteGetRandomDSTest.delete" />
       </list>
     </recent_temporary>
   </component>
@@ -177,10 +176,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="hashing practice" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1603713511494">
+    <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1603960693086">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603713511494" />
+    <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603957536172" />
+    <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603960693086" />
     <state x="-1272" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603274724654">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
@@ -189,59 +189,63 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1222" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603350112355" />
-    <state width="1878" height="308" key="GridCell.Tab.0.bottom" timestamp="1603784142170">
+    <state x="-1197" y="250" key="#xdebugger.evaluate" timestamp="1604220105525">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603784142170" />
+    <state x="-1197" y="250" key="#xdebugger.evaluate/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604220105525" />
+    <state width="1878" height="434" key="GridCell.Tab.0.bottom" timestamp="1604299648106">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="434" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299648106" />
     <state width="1398" height="160" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603214748669" />
     <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209050" />
     <state width="1878" height="338" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533597" />
-    <state width="1878" height="308" key="GridCell.Tab.0.center" timestamp="1603784142169">
+    <state width="1878" height="434" key="GridCell.Tab.0.center" timestamp="1604299648104">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603784142169" />
+    <state width="1878" height="434" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299648104" />
     <state width="1398" height="160" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603214748668" />
     <state width="1398" height="243" key="GridCell.Tab.0.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209045" />
     <state width="1878" height="338" key="GridCell.Tab.0.center/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533596" />
-    <state width="1878" height="308" key="GridCell.Tab.0.left" timestamp="1603784142168">
+    <state width="1878" height="434" key="GridCell.Tab.0.left" timestamp="1604299648102">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603784142168" />
+    <state width="1878" height="434" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299648102" />
     <state width="1398" height="160" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603214748667" />
     <state width="1398" height="243" key="GridCell.Tab.0.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209044" />
     <state width="1878" height="338" key="GridCell.Tab.0.left/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533596" />
-    <state width="1878" height="308" key="GridCell.Tab.0.right" timestamp="1603784142169">
+    <state width="1878" height="434" key="GridCell.Tab.0.right" timestamp="1604299648105">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="308" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603784142169" />
+    <state width="1878" height="434" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299648105" />
     <state width="1398" height="160" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603214748668" />
     <state width="1398" height="243" key="GridCell.Tab.0.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209049" />
     <state width="1878" height="338" key="GridCell.Tab.0.right/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533597" />
-    <state width="1878" height="296" key="GridCell.Tab.1.bottom" timestamp="1603714707742">
+    <state width="1878" height="434" key="GridCell.Tab.1.bottom" timestamp="1604299649631">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603714707742" />
+    <state width="1878" height="434" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299649631" />
     <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
     <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209054" />
     <state width="1878" height="257" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533585" />
-    <state width="1878" height="296" key="GridCell.Tab.1.center" timestamp="1603714707741">
+    <state width="1878" height="434" key="GridCell.Tab.1.center" timestamp="1604299649629">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603714707741" />
+    <state width="1878" height="434" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299649629" />
     <state width="1398" height="243" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
     <state width="1398" height="243" key="GridCell.Tab.1.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209053" />
     <state width="1878" height="257" key="GridCell.Tab.1.center/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533584" />
-    <state width="1878" height="296" key="GridCell.Tab.1.left" timestamp="1603714707741">
+    <state width="1878" height="434" key="GridCell.Tab.1.left" timestamp="1604299649627">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603714707741" />
+    <state width="1878" height="434" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299649627" />
     <state width="1398" height="243" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1603214392941" />
     <state width="1398" height="243" key="GridCell.Tab.1.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209051" />
     <state width="1878" height="257" key="GridCell.Tab.1.left/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533583" />
-    <state width="1878" height="296" key="GridCell.Tab.1.right" timestamp="1603714707742">
+    <state width="1878" height="434" key="GridCell.Tab.1.right" timestamp="1604299649630">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="296" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603714707742" />
+    <state width="1878" height="434" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299649630" />
     <state width="1398" height="243" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
     <state width="1398" height="243" key="GridCell.Tab.1.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209053" />
     <state width="1878" height="257" key="GridCell.Tab.1.right/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533584" />
@@ -253,10 +257,10 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1141" y="236" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599638525234" />
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603714144811">
+    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603958771955">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603714144811" />
+    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603958771955" />
     <state x="-1222" y="285" key="extract.method.dialog" timestamp="1603274239618">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
@@ -399,6 +403,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/questions/arrays/NextGreaterElement.java</url>
           <line>7</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/questions/binarytree/amazon/NextElementPQTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/questions/binarytree/amazon/NextElementPQTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/binarytree/amazon/NextElementPQ.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
