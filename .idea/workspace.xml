@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/amazon/MyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/amazon/NextElementPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/amazon/SortListOfSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/questions/binarytree/amazon/NextElementPQTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/ClimbStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/numbers/SumDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/questions/arrays/NextGreaterElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/questions/arrays/NextGreaterElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/InitCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/InitCollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/InitCollectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/InitCollectionTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,52 +77,49 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NextElementPQTest.getNextSmokeTest">
-    <configuration name="NextElementPQTest.getNextSmokeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SumDigitsTest.testSumToSingleDigit2">
+    <configuration name="SumDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.numbers.SumDigits" />
       <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.binarytree.amazon" />
-      <option name="MAIN_CLASS_NAME" value="questions.binarytree.amazon.NextElementPQTest" />
-      <option name="METHOD_NAME" value="getNextSmokeTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InitCollectionTest.testSumToSingleDigit2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="misc" />
+      <option name="PACKAGE_NAME" value="utils" />
+      <option name="MAIN_CLASS_NAME" value="utils.InitCollectionTest" />
+      <option name="METHOD_NAME" value="testSumToSingleDigit2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextElementPQTest.initTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SumDigitsTest.testSumDigits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.binarytree.amazon" />
-      <option name="MAIN_CLASS_NAME" value="questions.binarytree.amazon.NextElementPQTest" />
-      <option name="METHOD_NAME" value="initTest" />
+      <option name="PACKAGE_NAME" value="questions.numbers" />
+      <option name="MAIN_CLASS_NAME" value="questions.numbers.SumDigitsTest" />
+      <option name="METHOD_NAME" value="testSumDigits" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextElementPQTest.priorityQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SumDigitsTest.testSumToSingleDigit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.binarytree.amazon" />
-      <option name="MAIN_CLASS_NAME" value="questions.binarytree.amazon.NextElementPQTest" />
-      <option name="METHOD_NAME" value="priorityQueueTest" />
+      <option name="PACKAGE_NAME" value="questions.numbers" />
+      <option name="MAIN_CLASS_NAME" value="questions.numbers.SumDigitsTest" />
+      <option name="METHOD_NAME" value="testSumToSingleDigit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElementTest.ngeAscendingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SumDigitsTest.testSumToSingleDigit2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.NextGreaterElementTest" />
-      <option name="METHOD_NAME" value="ngeAscendingTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextGreaterElementTest.ngeDescendingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.arrays" />
-      <option name="MAIN_CLASS_NAME" value="questions.arrays.NextGreaterElementTest" />
-      <option name="METHOD_NAME" value="ngeDescendingTest" />
+      <option name="PACKAGE_NAME" value="questions.numbers" />
+      <option name="MAIN_CLASS_NAME" value="questions.numbers.SumDigitsTest" />
+      <option name="METHOD_NAME" value="testSumToSingleDigit2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NextElementPQTest.getNextSmokeTest" />
-        <item itemvalue="JUnit.NextElementPQTest.initTest" />
-        <item itemvalue="JUnit.NextElementPQTest.priorityQueueTest" />
-        <item itemvalue="JUnit.NextGreaterElementTest.ngeDescendingTest" />
-        <item itemvalue="JUnit.NextGreaterElementTest.ngeAscendingTest" />
+        <item itemvalue="JUnit.SumDigitsTest.testSumToSingleDigit2" />
+        <item itemvalue="JUnit.SumDigitsTest.testSumToSingleDigit" />
+        <item itemvalue="JUnit.SumDigitsTest.testSumDigits" />
+        <item itemvalue="Application.SumDigits" />
+        <item itemvalue="JUnit.InitCollectionTest.testSumToSingleDigit2" />
       </list>
     </recent_temporary>
   </component>
@@ -193,59 +189,59 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1197" y="250" key="#xdebugger.evaluate/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604220105525" />
-    <state width="1878" height="434" key="GridCell.Tab.0.bottom" timestamp="1604299648106">
+    <state width="1878" height="382" key="GridCell.Tab.0.bottom" timestamp="1604390566881">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="434" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299648106" />
+    <state width="1878" height="382" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604390566881" />
     <state width="1398" height="160" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603214748669" />
     <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209050" />
     <state width="1878" height="338" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533597" />
-    <state width="1878" height="434" key="GridCell.Tab.0.center" timestamp="1604299648104">
+    <state width="1878" height="382" key="GridCell.Tab.0.center" timestamp="1604390566880">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="434" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299648104" />
+    <state width="1878" height="382" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604390566880" />
     <state width="1398" height="160" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603214748668" />
     <state width="1398" height="243" key="GridCell.Tab.0.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209045" />
     <state width="1878" height="338" key="GridCell.Tab.0.center/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533596" />
-    <state width="1878" height="434" key="GridCell.Tab.0.left" timestamp="1604299648102">
+    <state width="1878" height="382" key="GridCell.Tab.0.left" timestamp="1604390566880">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="434" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299648102" />
+    <state width="1878" height="382" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604390566880" />
     <state width="1398" height="160" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603214748667" />
     <state width="1398" height="243" key="GridCell.Tab.0.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209044" />
     <state width="1878" height="338" key="GridCell.Tab.0.left/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533596" />
-    <state width="1878" height="434" key="GridCell.Tab.0.right" timestamp="1604299648105">
+    <state width="1878" height="382" key="GridCell.Tab.0.right" timestamp="1604390566881">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="434" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299648105" />
+    <state width="1878" height="382" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604390566881" />
     <state width="1398" height="160" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603214748668" />
     <state width="1398" height="243" key="GridCell.Tab.0.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209049" />
     <state width="1878" height="338" key="GridCell.Tab.0.right/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533597" />
-    <state width="1878" height="434" key="GridCell.Tab.1.bottom" timestamp="1604299649631">
+    <state width="1878" height="365" key="GridCell.Tab.1.bottom" timestamp="1604389633519">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="434" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299649631" />
+    <state width="1878" height="365" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604389633519" />
     <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
     <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209054" />
     <state width="1878" height="257" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533585" />
-    <state width="1878" height="434" key="GridCell.Tab.1.center" timestamp="1604299649629">
+    <state width="1878" height="365" key="GridCell.Tab.1.center" timestamp="1604389633518">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="434" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299649629" />
+    <state width="1878" height="365" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604389633518" />
     <state width="1398" height="243" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
     <state width="1398" height="243" key="GridCell.Tab.1.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209053" />
     <state width="1878" height="257" key="GridCell.Tab.1.center/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533584" />
-    <state width="1878" height="434" key="GridCell.Tab.1.left" timestamp="1604299649627">
+    <state width="1878" height="365" key="GridCell.Tab.1.left" timestamp="1604389633518">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="434" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299649627" />
+    <state width="1878" height="365" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604389633518" />
     <state width="1398" height="243" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1603214392941" />
     <state width="1398" height="243" key="GridCell.Tab.1.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209051" />
     <state width="1878" height="257" key="GridCell.Tab.1.left/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533583" />
-    <state width="1878" height="434" key="GridCell.Tab.1.right" timestamp="1604299649630">
+    <state width="1878" height="365" key="GridCell.Tab.1.right" timestamp="1604389633519">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="434" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604299649630" />
+    <state width="1878" height="365" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604389633519" />
     <state width="1398" height="243" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
     <state width="1398" height="243" key="GridCell.Tab.1.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209053" />
     <state width="1878" height="257" key="GridCell.Tab.1.right/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533584" />
@@ -273,12 +269,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/test/java/utils/InitCollectionTest.java</url>
-          <line>10</line>
-          <properties field="randomNumbersArray" class="utils.InitCollectionTest" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/questions/arrays/FindMissingNumberTest.java</url>
           <line>11</line>
@@ -418,6 +408,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/questions/binarytree/amazon/NextElementPQ.java</url>
           <line>27</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/binarytree/ClimbStairs.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/utils/InitCollectionTest.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
