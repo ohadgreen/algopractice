@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/binarytree/ClimbStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/numbers/SumDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/arrays/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/trie/TrieNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/trie/TrieWordsOrganize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/questions/trie/TrieWordsOrganizeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/InitCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/InitCollectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/InitCollectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/InitCollectionTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -64,11 +64,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="questions.trie" />
+      <recent name="questions.numbers" />
       <recent name="questions.binarytree.amazon" />
       <recent name="questions.arrays" />
       <recent name="questions.hashmap" />
-      <recent name="exercise" />
-      <recent name="questions.hashing" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="questions" />
@@ -77,30 +77,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SumDigitsTest.testSumToSingleDigit2">
-    <configuration name="SumDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.numbers.SumDigits" />
+  <component name="RunManager" selected="JUnit.TrieWordsOrganizeTest.findWordsTest">
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="questions.arrays.FizzBuzz" />
       <module name="misc" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InitCollectionTest.testSumToSingleDigit2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="misc" />
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.InitCollectionTest" />
-      <option name="METHOD_NAME" value="testSumToSingleDigit2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumDigitsTest.testSumDigits" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.numbers" />
-      <option name="MAIN_CLASS_NAME" value="questions.numbers.SumDigitsTest" />
-      <option name="METHOD_NAME" value="testSumDigits" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,13 +105,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TrieWordsOrganizeTest.addWordGo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="misc" />
+      <option name="PACKAGE_NAME" value="questions.trie" />
+      <option name="MAIN_CLASS_NAME" value="questions.trie.TrieWordsOrganizeTest" />
+      <option name="METHOD_NAME" value="addWordGo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrieWordsOrganizeTest.findWordsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="misc" />
+      <option name="PACKAGE_NAME" value="questions.trie" />
+      <option name="MAIN_CLASS_NAME" value="questions.trie.TrieWordsOrganizeTest" />
+      <option name="METHOD_NAME" value="findWordsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TrieWordsOrganizeTest.findWordsTest" />
+        <item itemvalue="JUnit.TrieWordsOrganizeTest.addWordGo" />
+        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="JUnit.SumDigitsTest.testSumToSingleDigit2" />
         <item itemvalue="JUnit.SumDigitsTest.testSumToSingleDigit" />
-        <item itemvalue="JUnit.SumDigitsTest.testSumDigits" />
-        <item itemvalue="Application.SumDigits" />
-        <item itemvalue="JUnit.InitCollectionTest.testSumToSingleDigit2" />
       </list>
     </recent_temporary>
   </component>
@@ -172,10 +172,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="hashing practice" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1603960693086">
+    <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1604908936876">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603957536172" />
+    <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604908936876" />
     <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603960693086" />
     <state x="-1272" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603274724654">
       <screen x="-1920" y="0" width="1920" height="1080" />
@@ -189,59 +189,59 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1197" y="250" key="#xdebugger.evaluate/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604220105525" />
-    <state width="1878" height="382" key="GridCell.Tab.0.bottom" timestamp="1604390566881">
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom" timestamp="1604920765672">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="382" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604390566881" />
+    <state width="1878" height="280" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604920765672" />
     <state width="1398" height="160" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603214748669" />
     <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209050" />
     <state width="1878" height="338" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533597" />
-    <state width="1878" height="382" key="GridCell.Tab.0.center" timestamp="1604390566880">
+    <state width="1878" height="280" key="GridCell.Tab.0.center" timestamp="1604920765670">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="382" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604390566880" />
+    <state width="1878" height="280" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604920765670" />
     <state width="1398" height="160" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603214748668" />
     <state width="1398" height="243" key="GridCell.Tab.0.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209045" />
     <state width="1878" height="338" key="GridCell.Tab.0.center/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533596" />
-    <state width="1878" height="382" key="GridCell.Tab.0.left" timestamp="1604390566880">
+    <state width="1878" height="280" key="GridCell.Tab.0.left" timestamp="1604920765670">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="382" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604390566880" />
+    <state width="1878" height="280" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604920765670" />
     <state width="1398" height="160" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603214748667" />
     <state width="1398" height="243" key="GridCell.Tab.0.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209044" />
     <state width="1878" height="338" key="GridCell.Tab.0.left/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533596" />
-    <state width="1878" height="382" key="GridCell.Tab.0.right" timestamp="1604390566881">
+    <state width="1878" height="280" key="GridCell.Tab.0.right" timestamp="1604920765671">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="382" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604390566881" />
+    <state width="1878" height="280" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604920765671" />
     <state width="1398" height="160" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603214748668" />
     <state width="1398" height="243" key="GridCell.Tab.0.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209049" />
     <state width="1878" height="338" key="GridCell.Tab.0.right/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533597" />
-    <state width="1878" height="365" key="GridCell.Tab.1.bottom" timestamp="1604389633519">
+    <state width="1878" height="280" key="GridCell.Tab.1.bottom" timestamp="1604920765674">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="365" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604389633519" />
+    <state width="1878" height="280" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604920765674" />
     <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
     <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209054" />
     <state width="1878" height="257" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533585" />
-    <state width="1878" height="365" key="GridCell.Tab.1.center" timestamp="1604389633518">
+    <state width="1878" height="280" key="GridCell.Tab.1.center" timestamp="1604920765673">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="365" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604389633518" />
+    <state width="1878" height="280" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604920765673" />
     <state width="1398" height="243" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
     <state width="1398" height="243" key="GridCell.Tab.1.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209053" />
     <state width="1878" height="257" key="GridCell.Tab.1.center/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533584" />
-    <state width="1878" height="365" key="GridCell.Tab.1.left" timestamp="1604389633518">
+    <state width="1878" height="280" key="GridCell.Tab.1.left" timestamp="1604920765672">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="365" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604389633518" />
+    <state width="1878" height="280" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604920765672" />
     <state width="1398" height="243" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1603214392941" />
     <state width="1398" height="243" key="GridCell.Tab.1.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209051" />
     <state width="1878" height="257" key="GridCell.Tab.1.left/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533583" />
-    <state width="1878" height="365" key="GridCell.Tab.1.right" timestamp="1604389633519">
+    <state width="1878" height="280" key="GridCell.Tab.1.right" timestamp="1604920765673">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="365" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604389633519" />
+    <state width="1878" height="280" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604920765673" />
     <state width="1398" height="243" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
     <state width="1398" height="243" key="GridCell.Tab.1.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1603268209053" />
     <state width="1878" height="257" key="GridCell.Tab.1.right/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533584" />
@@ -253,10 +253,10 @@
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
     <state x="-1141" y="236" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599638525234" />
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603958771955">
+    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604912742687">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603958771955" />
+    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604912742687" />
     <state x="-1222" y="285" key="extract.method.dialog" timestamp="1603274239618">
       <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
@@ -415,9 +415,19 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/utils/InitCollectionTest.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="47" />
+          <url>file://$PROJECT_DIR$/src/test/java/questions/trie/TrieWordsOrganizeTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/trie/TrieWordsOrganize.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/trie/TrieWordsOrganize.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
