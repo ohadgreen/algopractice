@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/peoplerelation/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/peoplerelation/model/Name.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/peoplerelation/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/peoplerelation/model/peoplerelation/calculate/FindPeopleRelations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/peoplerelation/model/peoplerelation/calculate/FindPeopleRelationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/GambleMoves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/SquaresPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/singleton/MySingleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/singleton/MySingleton2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/singleton/MySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/singleton/MySingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,58 +33,66 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ohadgreen"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ohadgreen/algopractice.git",
+    "accountId": "707413b2-fc67-4ed9-8d50-6e21e393a480"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="customMavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="1bqz6ERb8VjjevW516FqV24aqDg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.MySingleton2Test.getInstanceTest.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  }
+}]]></component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="exercise.peoplerelation.model.peoplerelation.calculate" />
-      <recent name="questions.hashmap" />
-      <recent name="exercise.singleton" />
-      <recent name="questions.trie" />
-      <recent name="questions.numbers" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="exercise" />
       <recent name="questions" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="exercise.singleton" />
+      <recent name="exercise.peoplerelation.model.peoplerelation.calculate" />
+      <recent name="questions.hashmap" />
+      <recent name="questions.trie" />
+      <recent name="questions.numbers" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="questions.binarytree" />
       <recent name="questions.arrays" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.FindPeopleRelationsTest.findPath">
+  <component name="RunManager" selected="JUnit.MySingleton2Test.getInstanceTest">
     <configuration name="TreeTraversing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="questions.binarytree.TreeTraversing" />
       <module name="misc" />
@@ -96,16 +105,6 @@
       <option name="PACKAGE_NAME" value="questions.hashmap" />
       <option name="MAIN_CLASS_NAME" value="questions.hashmap.AnagramsTest" />
       <option name="METHOD_NAME" value="findAnagramsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnagramsTest.sortWordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.hashmap" />
-      <option name="MAIN_CLASS_NAME" value="questions.hashmap.AnagramsTest" />
-      <option name="METHOD_NAME" value="sortWordTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,13 +130,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MySingleton2Test.getInstanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algopractice" />
+      <option name="PACKAGE_NAME" value="exercise.singleton" />
+      <option name="MAIN_CLASS_NAME" value="exercise.singleton.MySingleton2Test" />
+      <option name="METHOD_NAME" value="getInstanceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MySingleton2Test.getInstanceTest" />
         <item itemvalue="JUnit.FindPeopleRelationsTest.findPath" />
         <item itemvalue="JUnit.FindPeopleRelationsTest.initPeopleTest" />
         <item itemvalue="Application.TreeTraversing" />
         <item itemvalue="JUnit.AnagramsTest.findAnagramsTest" />
-        <item itemvalue="JUnit.AnagramsTest.sortWordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,121 +185,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hashing practice" />
     <option name="LAST_COMMIT_MESSAGE" value="hashing practice" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1605776048834">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605776048834" />
-    <state x="-1147" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603960693086" />
-    <state x="-1272" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603274724654">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1272" y="283" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603274724654" />
-    <state x="-1423" y="471" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605775574292">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1423" y="471" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605775574292" />
-    <state x="-1191" y="428" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1605775575884">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1191" y="428" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605775575884" />
-    <state x="-1222" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603350112355">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1222" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603350112355" />
-    <state x="-1197" y="250" key="#xdebugger.evaluate" timestamp="1604220105525">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1197" y="250" key="#xdebugger.evaluate/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1604220105525" />
-    <state width="1834" height="259" key="GridCell.Tab.0.bottom" timestamp="1605811152727">
-      <screen x="-1876" y="23" width="1876" height="1057" />
-    </state>
-    <state width="1878" height="417" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605779757767" />
-    <state width="1398" height="160" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603214748669" />
-    <state width="1834" height="259" key="GridCell.Tab.0.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1605811152727" />
-    <state width="1878" height="338" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533597" />
-    <state width="1878" height="280" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1605470678303" />
-    <state width="1834" height="259" key="GridCell.Tab.0.center" timestamp="1605811152726">
-      <screen x="-1876" y="23" width="1876" height="1057" />
-    </state>
-    <state width="1878" height="417" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605779757766" />
-    <state width="1398" height="160" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603214748668" />
-    <state width="1834" height="259" key="GridCell.Tab.0.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1605811152726" />
-    <state width="1878" height="338" key="GridCell.Tab.0.center/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533596" />
-    <state width="1878" height="280" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1605470678302" />
-    <state width="1834" height="259" key="GridCell.Tab.0.left" timestamp="1605811152725">
-      <screen x="-1876" y="23" width="1876" height="1057" />
-    </state>
-    <state width="1878" height="417" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605779757765" />
-    <state width="1398" height="160" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603214748667" />
-    <state width="1834" height="259" key="GridCell.Tab.0.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1605811152725" />
-    <state width="1878" height="338" key="GridCell.Tab.0.left/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533596" />
-    <state width="1878" height="280" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1605470678302" />
-    <state width="1834" height="259" key="GridCell.Tab.0.right" timestamp="1605811152726">
-      <screen x="-1876" y="23" width="1876" height="1057" />
-    </state>
-    <state width="1878" height="417" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605779757766" />
-    <state width="1398" height="160" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603214748668" />
-    <state width="1834" height="259" key="GridCell.Tab.0.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1605811152726" />
-    <state width="1878" height="338" key="GridCell.Tab.0.right/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533597" />
-    <state width="1878" height="280" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1605470678303" />
-    <state width="1834" height="169" key="GridCell.Tab.1.bottom" timestamp="1605811152721">
-      <screen x="-1876" y="23" width="1876" height="1057" />
-    </state>
-    <state width="1878" height="417" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605779758195" />
-    <state width="1398" height="243" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
-    <state width="1834" height="169" key="GridCell.Tab.1.bottom/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1605811152721" />
-    <state width="1878" height="257" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533585" />
-    <state width="1878" height="280" key="GridCell.Tab.1.bottom/44.23.1396.877@44.23.1396.877" timestamp="1605470678306" />
-    <state width="1834" height="169" key="GridCell.Tab.1.center" timestamp="1605811152721">
-      <screen x="-1876" y="23" width="1876" height="1057" />
-    </state>
-    <state width="1878" height="417" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605779758193" />
-    <state width="1398" height="243" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
-    <state width="1834" height="169" key="GridCell.Tab.1.center/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1605811152721" />
-    <state width="1878" height="257" key="GridCell.Tab.1.center/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533584" />
-    <state width="1878" height="280" key="GridCell.Tab.1.center/44.23.1396.877@44.23.1396.877" timestamp="1605470678305" />
-    <state width="1834" height="169" key="GridCell.Tab.1.left" timestamp="1605811152720">
-      <screen x="-1876" y="23" width="1876" height="1057" />
-    </state>
-    <state width="1878" height="417" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605779758192" />
-    <state width="1398" height="243" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1603214392941" />
-    <state width="1834" height="169" key="GridCell.Tab.1.left/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1605811152720" />
-    <state width="1878" height="257" key="GridCell.Tab.1.left/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533583" />
-    <state width="1878" height="280" key="GridCell.Tab.1.left/44.23.1396.877@44.23.1396.877" timestamp="1605470678304" />
-    <state width="1834" height="169" key="GridCell.Tab.1.right" timestamp="1605811152721">
-      <screen x="-1876" y="23" width="1876" height="1057" />
-    </state>
-    <state width="1878" height="417" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605779758194" />
-    <state width="1398" height="243" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1603214392942" />
-    <state width="1834" height="169" key="GridCell.Tab.1.right/0.23.1440.877/-1876.23.1876.1057@-1876.23.1876.1057" timestamp="1605811152721" />
-    <state width="1878" height="257" key="GridCell.Tab.1.right/0.23.1440.877/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599985533584" />
-    <state width="1878" height="280" key="GridCell.Tab.1.right/44.23.1396.877@44.23.1396.877" timestamp="1605470678305" />
-    <state x="-1472" y="121" key="SettingsEditor" timestamp="1603179065698">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1472" y="121" key="SettingsEditor/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603179065698" />
-    <state x="-1141" y="236" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599638525234">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1141" y="236" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599638525234" />
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605779187045">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1181" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605779187045" />
-    <state x="-1222" y="285" key="extract.method.dialog" timestamp="1603274239618">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1222" y="285" key="extract.method.dialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1603274239618" />
-    <state x="-1361" y="203" key="new project wizard" timestamp="1605780196615">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1361" y="203" key="new project wizard/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1605780196615" />
-    <state x="-1311" y="274" width="700" height="530" key="recent.locations.popup" timestamp="1599638278045">
-      <screen x="-1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="-1311" y="274" width="700" height="530" key="recent.locations.popup/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1599638278045" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
