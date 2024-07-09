@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/GambleMoves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/SquaresPoints.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercise/singleton/MySingleton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/singleton/MySingleton2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="singleton, 2024">
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/model/MyGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/model/MyUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/userNotification/UserNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/questions/userNotification/UserNotificationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/singleton/MySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/singleton/MySingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/exercise/singleton/MySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercise/singleton/MySingleton.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,26 +24,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ohadgreen"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ohadgreen&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ohadgreen/algopractice.git",
-    "accountId": "707413b2-fc67-4ed9-8d50-6e21e393a480"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ohadgreen/algopractice.git&quot;,
+    &quot;accountId&quot;: &quot;707413b2-fc67-4ed9-8d50-6e21e393a480&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -65,6 +64,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.MySingleton2Test.getInstanceTest.executor": "Run",
+    "JUnit.UserNotificationTest.computeIfAbsentTest.executor": "Debug",
+    "JUnit.UserNotificationTest.initGroupsMapTest.executor": "Run",
+    "JUnit.UserNotificationTest.mapAndNotifyUsersTest.executor": "Debug",
+    "JUnit.UserNotificationTest.notificationTest.executor": "Run",
+    "JUnit.UserNotificationTest.notifyUsersTest1.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
@@ -81,60 +85,63 @@
       <recent name="questions" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="questions.monday" />
       <recent name="exercise.singleton" />
       <recent name="exercise.peoplerelation.model.peoplerelation.calculate" />
       <recent name="questions.hashmap" />
       <recent name="questions.trie" />
-      <recent name="questions.numbers" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="questions.binarytree" />
       <recent name="questions.arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MySingleton2Test.getInstanceTest">
-    <configuration name="TreeTraversing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="questions.binarytree.TreeTraversing" />
-      <module name="misc" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AnagramsTest.findAnagramsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="misc" />
-      <option name="PACKAGE_NAME" value="questions.hashmap" />
-      <option name="MAIN_CLASS_NAME" value="questions.hashmap.AnagramsTest" />
-      <option name="METHOD_NAME" value="findAnagramsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindPeopleRelationsTest.findPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="misc" />
-      <option name="PACKAGE_NAME" value="exercise.peoplerelation.model.peoplerelation.calculate" />
-      <option name="MAIN_CLASS_NAME" value="exercise.peoplerelation.model.peoplerelation.calculate.FindPeopleRelationsTest" />
-      <option name="METHOD_NAME" value="findPath" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindPeopleRelationsTest.initPeopleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="misc" />
-      <option name="PACKAGE_NAME" value="exercise.peoplerelation.model.peoplerelation.calculate" />
-      <option name="MAIN_CLASS_NAME" value="exercise.peoplerelation.model.peoplerelation.calculate.FindPeopleRelationsTest" />
-      <option name="METHOD_NAME" value="initPeopleTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MySingleton2Test.getInstanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserNotificationTest.initGroupsMapTest">
+    <configuration name="UserNotificationTest.computeIfAbsentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algopractice" />
-      <option name="PACKAGE_NAME" value="exercise.singleton" />
-      <option name="MAIN_CLASS_NAME" value="exercise.singleton.MySingleton2Test" />
-      <option name="METHOD_NAME" value="getInstanceTest" />
+      <option name="PACKAGE_NAME" value="questions.monday" />
+      <option name="MAIN_CLASS_NAME" value="questions.userNotification.UserNotificationTest" />
+      <option name="METHOD_NAME" value="computeIfAbsentTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserNotificationTest.initGroupsMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algopractice" />
+      <option name="PACKAGE_NAME" value="questions.userNotification" />
+      <option name="MAIN_CLASS_NAME" value="questions.userNotification.UserNotificationTest" />
+      <option name="METHOD_NAME" value="initGroupsMapTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserNotificationTest.mapAndNotifyUsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algopractice" />
+      <option name="PACKAGE_NAME" value="questions.monday" />
+      <option name="MAIN_CLASS_NAME" value="questions.userNotification.UserNotificationTest" />
+      <option name="METHOD_NAME" value="mapAndNotifyUsersTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserNotificationTest.notificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algopractice" />
+      <option name="PACKAGE_NAME" value="questions.userNotification" />
+      <option name="MAIN_CLASS_NAME" value="questions.userNotification.UserNotificationTest" />
+      <option name="METHOD_NAME" value="notificationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserNotificationTest.notifyUsersTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algopractice" />
+      <option name="PACKAGE_NAME" value="questions.monday" />
+      <option name="MAIN_CLASS_NAME" value="questions.userNotification.UserNotificationTest" />
+      <option name="METHOD_NAME" value="notifyUsersTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MySingleton2Test.getInstanceTest" />
-        <item itemvalue="JUnit.FindPeopleRelationsTest.findPath" />
-        <item itemvalue="JUnit.FindPeopleRelationsTest.initPeopleTest" />
-        <item itemvalue="Application.TreeTraversing" />
-        <item itemvalue="JUnit.AnagramsTest.findAnagramsTest" />
+        <item itemvalue="JUnit.UserNotificationTest.initGroupsMapTest" />
+        <item itemvalue="JUnit.UserNotificationTest.notificationTest" />
+        <item itemvalue="JUnit.UserNotificationTest.computeIfAbsentTest" />
+        <item itemvalue="JUnit.UserNotificationTest.notifyUsersTest1" />
+        <item itemvalue="JUnit.UserNotificationTest.mapAndNotifyUsersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1560153534285</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="singleton, 2024">
+      <option name="closed" value="true" />
+      <created>1719815480495</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719815480495</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -184,7 +199,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hashing practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashing practice" />
+    <MESSAGE value="singleton, 2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="singleton, 2024" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -363,6 +379,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/exercise/peoplerelation/model/peoplerelation/calculate/FindPeopleRelations.java</url>
           <line>46</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/userNotification/UserNotification.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/questions/userNotification/UserNotificationTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/questions/userNotification/UserNotificationTest.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/questions/userNotification/UserNotificationTest.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
