@@ -90,7 +90,9 @@ class UserNotificationTest {
 
         for (MyUser user : userNotification.users) {
             for (MyGroup group : user.getGroups()) {
-                groupsToUsersMap.computeIfAbsent(group, k -> new HashSet<>()).add(user);
+//                groupsToUsersMap.computeIfAbsent(group, k -> new HashSet<>()).add(user);
+                Set<MyUser> userSet = groupsToUsersMap.computeIfAbsent(group, k -> new HashSet<>());
+                userSet.add(user);
             }
         }
 

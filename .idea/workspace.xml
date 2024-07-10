@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="singleton, 2024">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/model/MyGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/model/MyUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/userNotification/UserNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/questions/userNotification/UserNotificationTest.java" afterDir="false" />
+    <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="user notifications">
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/stack/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/questions/stack/PalindromeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercise/singleton/MySingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercise/singleton/MySingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/questions/userNotification/UserNotificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/questions/userNotification/UserNotificationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -56,7 +54,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="1bqz6ERb8VjjevW516FqV24aqDg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,6 +64,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.MySingleton2Test.getInstanceTest.executor": "Run",
+    "JUnit.PalindromeTest.evenCharStringTest.executor": "Run",
+    "JUnit.PalindromeTest.isPalindromeTwoPointersEvenStringTest.executor": "Debug",
+    "JUnit.PalindromeTest.oddCharStringTest.executor": "Run",
     "JUnit.UserNotificationTest.computeIfAbsentTest.executor": "Debug",
     "JUnit.UserNotificationTest.initGroupsMapTest.executor": "Run",
     "JUnit.UserNotificationTest.mapAndNotifyUsersTest.executor": "Debug",
@@ -85,23 +88,53 @@
       <recent name="questions" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="questions.stack" />
       <recent name="questions.monday" />
       <recent name="exercise.singleton" />
       <recent name="exercise.peoplerelation.model.peoplerelation.calculate" />
       <recent name="questions.hashmap" />
-      <recent name="questions.trie" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="questions.binarytree" />
       <recent name="questions.arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserNotificationTest.initGroupsMapTest">
-    <configuration name="UserNotificationTest.computeIfAbsentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PalindromeTest.isPalindromeTwoPointersOddStringTest">
+    <configuration name="PalindromeTest.evenCharStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algopractice" />
-      <option name="PACKAGE_NAME" value="questions.monday" />
-      <option name="MAIN_CLASS_NAME" value="questions.userNotification.UserNotificationTest" />
-      <option name="METHOD_NAME" value="computeIfAbsentTest" />
+      <option name="PACKAGE_NAME" value="questions.stack" />
+      <option name="MAIN_CLASS_NAME" value="questions.stack.PalindromeTest" />
+      <option name="METHOD_NAME" value="evenCharStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeTest.isPalindromeTwoPointersEvenStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algopractice" />
+      <option name="PACKAGE_NAME" value="questions.stack" />
+      <option name="MAIN_CLASS_NAME" value="questions.stack.PalindromeTest" />
+      <option name="METHOD_NAME" value="isPalindromeTwoPointersEvenStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeTest.isPalindromeTwoPointersOddStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algopractice" />
+      <option name="PACKAGE_NAME" value="questions.stack" />
+      <option name="MAIN_CLASS_NAME" value="questions.stack.PalindromeTest" />
+      <option name="METHOD_NAME" value="isPalindromeTwoPointersOddStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeTest.oddCharStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algopractice" />
+      <option name="PACKAGE_NAME" value="questions.stack" />
+      <option name="MAIN_CLASS_NAME" value="questions.stack.PalindromeTest" />
+      <option name="METHOD_NAME" value="oddCharStringTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,43 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserNotificationTest.mapAndNotifyUsersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algopractice" />
-      <option name="PACKAGE_NAME" value="questions.monday" />
-      <option name="MAIN_CLASS_NAME" value="questions.userNotification.UserNotificationTest" />
-      <option name="METHOD_NAME" value="mapAndNotifyUsersTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserNotificationTest.notificationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algopractice" />
-      <option name="PACKAGE_NAME" value="questions.userNotification" />
-      <option name="MAIN_CLASS_NAME" value="questions.userNotification.UserNotificationTest" />
-      <option name="METHOD_NAME" value="notificationTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserNotificationTest.notifyUsersTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algopractice" />
-      <option name="PACKAGE_NAME" value="questions.monday" />
-      <option name="MAIN_CLASS_NAME" value="questions.userNotification.UserNotificationTest" />
-      <option name="METHOD_NAME" value="notifyUsersTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromeTest.isPalindromeTwoPointersOddStringTest" />
+        <item itemvalue="JUnit.PalindromeTest.isPalindromeTwoPointersEvenStringTest" />
+        <item itemvalue="JUnit.PalindromeTest.oddCharStringTest" />
+        <item itemvalue="JUnit.PalindromeTest.evenCharStringTest" />
         <item itemvalue="JUnit.UserNotificationTest.initGroupsMapTest" />
-        <item itemvalue="JUnit.UserNotificationTest.notificationTest" />
-        <item itemvalue="JUnit.UserNotificationTest.computeIfAbsentTest" />
-        <item itemvalue="JUnit.UserNotificationTest.notifyUsersTest1" />
-        <item itemvalue="JUnit.UserNotificationTest.mapAndNotifyUsersTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719815480495</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="user notifications">
+      <option name="closed" value="true" />
+      <created>1720508132579</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720508132579</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -200,7 +211,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hashing practice" />
     <MESSAGE value="singleton, 2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="singleton, 2024" />
+    <MESSAGE value="user notifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="user notifications" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,8 +409,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/questions/userNotification/UserNotificationTest.java</url>
-          <line>96</line>
+          <line>98</line>
           <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/stack/Palindrome.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/stack/Palindrome.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
