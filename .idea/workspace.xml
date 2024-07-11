@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="user notifications">
-      <change afterPath="$PROJECT_DIR$/src/main/java/questions/stack/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/questions/stack/PalindromeTest.java" afterDir="false" />
+    <list default="true" id="96ae6904-8bab-4b81-84a4-e6d19e2af59b" name="Default Changelist" comment="Palindrome">
+      <change afterPath="$PROJECT_DIR$/src/main/java/questions/stack/HighestInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/questions/stack/HighestIntTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/questions/userNotification/UserNotificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/questions/userNotification/UserNotificationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +62,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.HighestIntTest.checkHighestIntTest.executor": "Run",
     "JUnit.MySingleton2Test.getInstanceTest.executor": "Run",
     "JUnit.PalindromeTest.evenCharStringTest.executor": "Run",
-    "JUnit.PalindromeTest.isPalindromeTwoPointersEvenStringTest.executor": "Debug",
+    "JUnit.PalindromeTest.isPalindromeTwoPointersEvenStringTest.executor": "Run",
+    "JUnit.PalindromeTest.isPalindromeTwoPointersOddStringTest.executor": "Debug",
     "JUnit.PalindromeTest.oddCharStringTest.executor": "Run",
     "JUnit.UserNotificationTest.computeIfAbsentTest.executor": "Debug",
     "JUnit.UserNotificationTest.initGroupsMapTest.executor": "Run",
@@ -99,7 +100,17 @@
       <recent name="questions.arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeTest.isPalindromeTwoPointersOddStringTest">
+  <component name="RunManager" selected="JUnit.HighestIntTest.checkHighestIntTest">
+    <configuration name="HighestIntTest.checkHighestIntTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algopractice" />
+      <option name="PACKAGE_NAME" value="questions.stack" />
+      <option name="MAIN_CLASS_NAME" value="questions.stack.HighestIntTest" />
+      <option name="METHOD_NAME" value="checkHighestIntTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PalindromeTest.evenCharStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algopractice" />
       <option name="PACKAGE_NAME" value="questions.stack" />
@@ -140,23 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserNotificationTest.initGroupsMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algopractice" />
-      <option name="PACKAGE_NAME" value="questions.userNotification" />
-      <option name="MAIN_CLASS_NAME" value="questions.userNotification.UserNotificationTest" />
-      <option name="METHOD_NAME" value="initGroupsMapTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HighestIntTest.checkHighestIntTest" />
         <item itemvalue="JUnit.PalindromeTest.isPalindromeTwoPointersOddStringTest" />
         <item itemvalue="JUnit.PalindromeTest.isPalindromeTwoPointersEvenStringTest" />
         <item itemvalue="JUnit.PalindromeTest.oddCharStringTest" />
         <item itemvalue="JUnit.PalindromeTest.evenCharStringTest" />
-        <item itemvalue="JUnit.UserNotificationTest.initGroupsMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720508132579</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Palindrome">
+      <option name="closed" value="true" />
+      <created>1720594094709</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720594094709</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -212,7 +221,8 @@
     <MESSAGE value="hashing practice" />
     <MESSAGE value="singleton, 2024" />
     <MESSAGE value="user notifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="user notifications" />
+    <MESSAGE value="Palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="Palindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -421,6 +431,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/questions/stack/Palindrome.java</url>
           <line>55</line>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/stack/Palindrome.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/stack/HighestInt.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/questions/stack/HighestInt.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
