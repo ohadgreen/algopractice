@@ -78,6 +78,9 @@ public class Palindrome {
     }
 
     public boolean isPalOddOrEven(String str) {
+        if (str.length()<=1) {
+            return true;
+        }
         // "ABCCBA"
         // "ABCDCBA"
 
