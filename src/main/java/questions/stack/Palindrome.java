@@ -77,4 +77,24 @@ public class Palindrome {
         return isPal;
     }
 
+    public boolean isPalOddOrEven(String str) {
+        // "ABCCBA"
+        // "ABCDCBA"
+
+        boolean isPalindrome = true;
+
+        int middleIndex = (str.length() - 1) / 2;
+
+        for (int i=0; i<=middleIndex; i++) {
+            char leftChar = str.charAt(i);
+            char rightChar = str.charAt(str.length() - 1 - i);
+
+            if (leftChar != rightChar) {
+                return false;
+            }
+        }
+
+        return isPalindrome;
+    }
+
 }

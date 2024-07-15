@@ -42,4 +42,17 @@ class PalindromeTest {
         assertFalse(palindrome.isPalindromeWithTwoPointers("ABZXCBA"));
     }
 
+    @Test
+    void isPalindromeTwoPointersOddOrEvenStringTest() {
+        String str = "ABCDCBA";
+        assertTrue(palindrome.isPalOddOrEven(str));
+
+        assertFalse(palindrome.isPalOddOrEven("ABZXCBA"));
+
+        assertTrue(palindrome.isPalOddOrEven("ABCCBA"));
+        assertFalse(palindrome.isPalOddOrEven("ABCQBA"));
+
+        assertTrue(palindrome.isPalOddOrEven(""));
+    }
+
 }

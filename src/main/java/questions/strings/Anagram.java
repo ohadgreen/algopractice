@@ -44,6 +44,17 @@ public class Anagram {
         return isAnagram;
     }
 
+    public Map<Character, Integer> buildCharactersMap(String word) {
+        Map<Character, Integer> charsMap = new HashMap<>();
+
+        for (char myChar : word.toCharArray()) {
+            charsMap.putIfAbsent(myChar, 0);
+            charsMap.put(myChar, charsMap.get(myChar) + 1);
+        }
+
+        return charsMap;
+    }
+
 
 
 
