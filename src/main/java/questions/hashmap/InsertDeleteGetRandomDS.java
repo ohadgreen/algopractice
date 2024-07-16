@@ -22,7 +22,7 @@ public class InsertDeleteGetRandomDS implements GetRandomDS{
 
     @Override
     public boolean delete(Object object) {
-        if (!myMap.keySet().contains(object)) {
+        if (!myMap.containsKey(object)) {
             return false; // object not exists
         }
 

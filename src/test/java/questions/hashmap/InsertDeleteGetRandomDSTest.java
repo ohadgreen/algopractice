@@ -2,6 +2,9 @@ package questions.hashmap;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class InsertDeleteGetRandomDSTest {
@@ -41,5 +44,20 @@ class InsertDeleteGetRandomDSTest {
 
     @Test
     void getRandom() {
+    }
+
+    @Test
+    void arrayListTest() {
+        List<String> list = new ArrayList<>();
+
+        list.add("one");
+        list.add("two");
+        list.add("three");
+        list.add("four");
+        list.add("five");
+
+        list.remove(2);
+
+        list.stream().forEach(System.out::println);
     }
 }
