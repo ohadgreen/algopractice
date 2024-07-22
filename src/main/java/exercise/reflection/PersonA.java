@@ -12,8 +12,8 @@ public class PersonA {
     private LocalDate birthDate;
     private List<PersonA> siblings = new ArrayList<>();
 
-//    public PersonA() {
-//    }
+    public PersonA() {
+    }
 
     public PersonA(String name, int age, LocalDate birthDate) {
         this.name = name;
