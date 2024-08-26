@@ -8,8 +8,9 @@ class ExploreObjectTest {
     private final ExploreObject exploreObject = new ExploreObject();
 
     @Test
-    void exploreObjectTest() throws NoSuchFieldException {
+    void exploreObjectTest() throws NoSuchFieldException, IllegalAccessException {
         PersonA personA = new PersonA("John", 25, null);
+        personA.family = "Doe";
         personA.setIsAdult();
         exploreObject.printClassAttributes(personA);
     }

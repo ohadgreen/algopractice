@@ -3,9 +3,9 @@ package questions.parallelComp;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StringsTransformOrig {
+public class StringsTransform1 {
     private List<String> data = new ArrayList<>();
-    public StringsTransformOrig(List<String> startingData) {
+    public StringsTransform1(List<String> startingData) {
         this.data = startingData;
     }
 
@@ -20,11 +20,9 @@ public class StringsTransformOrig {
     public List<String> transform(List<StringFunction> functions) throws InterruptedException {
         List<Thread> threads = new ArrayList<>();
         for (final StringFunction f : functions) {
-            threads.add(new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    forEach(f);
-                }}));
+            Thread thread = new Thread(() -> forEach(f));
+            threads.add(thread);
+            thread.start();
         }
         for (Thread t : threads) {
             t.join();

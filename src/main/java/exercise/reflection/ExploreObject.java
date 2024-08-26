@@ -4,11 +4,16 @@ import java.lang.reflect.*;
 
 public class ExploreObject {
 
-    public void printClassAttributes(Object object) throws NoSuchFieldException {
+    public void printClassAttributes(Object object) throws NoSuchFieldException, IllegalAccessException {
 
+        Class<?> aClass = object.getClass();
+        aClass.getName();
+
+        Field[] fields1 = aClass.getFields();
         Field[] fields = object.getClass().getDeclaredFields();
 
         for (Field field : fields) {
+//            System.out.println("value: " + field.get(object));
             System.out.println("Field name: " + field.getName());
             System.out.println("isAccessible: " + field.isAccessible());
             System.out.println("Field type: " + field.getType());
@@ -20,6 +25,10 @@ public class ExploreObject {
         if (siblingsGenericType instanceof ParameterizedType) {
             ParameterizedType parameterizedType = (ParameterizedType) siblingsGenericType;
             Type[] siblingsTypeArguments = parameterizedType.getActualTypeArguments();
+            if (siblingsTypeArguments.length > 0) {
+                Type siblingsTypeArgument = siblingsTypeArguments[0];
+                System.out.println("siblingsTypeArgument = " + siblingsTypeArgument);
+            }
             for (Type type : siblingsTypeArguments) {
                 System.out.println("Type argument: " + type);
             }
